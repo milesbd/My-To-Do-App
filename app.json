@@ -23,7 +23,7 @@
     "android": {
       "package": "com.milesbd.ToDoApp",
       "permissions":[],
-      "versionCode": 2
+      "versionCode": 3
     },
     "web": {
       "favicon": "./assets/My_To_Do_App_ICON_3600.png"
