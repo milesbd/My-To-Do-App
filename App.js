@@ -1,9 +1,10 @@
 import * as React from "react";
 import { AppRegistry } from "react-native";
 import { PreferencesContext } from "./src/PreferencesContext";
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import {
-  DarkTheme,
-  DefaultTheme,
+  MD3DarkTheme as DarkTheme,
+  MD3LightTheme as DefaultTheme,
   Provider as PaperProvider,
 } from "react-native-paper";
 import AsyncStorage from "@react-native-async-storage/async-storage";
@@ -63,8 +64,10 @@ const Main = ()=> {
   );
   return (
     <PreferencesContext.Provider value={preferences}>
-      <PaperProvider theme={theme}>
+      <PaperProvider theme={theme} >
+        <GestureHandlerRootView style={{ flex: 1 }}>
         <App />
+        </GestureHandlerRootView>
       </PaperProvider>
     </PreferencesContext.Provider>
   );

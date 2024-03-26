@@ -2,10 +2,11 @@
   "expo": {
     "name": "My To Do App",
     "slug": "To-Do-App",
-    "description":"A simple, single list To Do app designed for you to focus on what is really important",
-    "version": "2021.2",
+    "description": "A simple, single list To Do app designed for you to focus on what is really important",
+    "version": "2024.1",
     "orientation": "portrait",
     "icon": "./assets/My_To_Do_App_ICON_3600.png",
+    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/My_To_Do_App_Logo_HiRes.png",
       "resizeMode": "contain",
@@ -22,11 +23,16 @@
     },
     "android": {
       "package": "com.milesbd.ToDoApp",
-      "permissions":[],
+      "permissions": [],
       "versionCode": 3
     },
     "web": {
       "favicon": "./assets/My_To_Do_App_ICON_3600.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c61d57bb-96ac-4ace-8709-d647985518da"
+      }
     }
   }
 }

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { View, StyleSheet, Linking, ScrollView } from "react-native";
+import { View, StyleSheet, Linking, ScrollView, Platform } from "react-native";
 import {
   Menu,
   Appbar,
@@ -55,12 +55,7 @@ const ActionMenu = () => {
   };
   const hidePrivacy = () => setPrivacy(false);
 
-  const MORE =
-    typeof Platform === "undefined"
-      ? "dots-vertical"
-      : Platform.OS === "ios"
-      ? "dots-horizontal"
-      : "dots-vertical";
+  const MORE_ICON = Platform.OS === "ios" ? "dots-horizontal" : "dots-vertical";
 
   const goToURL = (url) => {
     Linking.canOpenURL(url).then((supported) => {
@@ -81,7 +76,7 @@ const ActionMenu = () => {
         overlayAccessibilityLabel="Close Application Menu"
         anchor={
           <Appbar.Action
-            icon={MORE}
+            icon={MORE_ICON}
             onPress={openMenu}
             color={"white"}
             accessibilityLabel="Open Application Menu"
@@ -91,9 +86,11 @@ const ActionMenu = () => {
         <Menu.Item
           onPress={() => toggleDark()}
           title={`Dark Mode ${darkMode ? "On" : "Off"}`}
-          icon={() => (
+          style={{marginLeft:20}}
+          leadingIcon={() => (
             <Switch value={darkMode} onValueChange={() => toggleDark()} />
           )}
+          
         />
         <Menu.Item onPress={showDialog} title="Delete Completed" />
         <Menu.Item onPress={showAbout} title="About" />
@@ -188,7 +185,7 @@ const ActionMenu = () => {
                 }
               />
               <IconButton
-                icon="github-circle"
+                icon="github"
                 size={32}
                 accessibilityLabel="Connect with us on Github"
                 onPress={() => goToURL("https://github.com/milesbd")}
@@ -252,7 +249,7 @@ const styles = StyleSheet.create({
   privacy: { marginVertical: "30%" },
   scrollArea: { paddingHorizontal: 24 },
   bold: { fontWeight: "bold" },
-  menuView:{ flexDirection: "row", justifyContent: "center" }
+  menuView: { flexDirection: "row", justifyContent: "center" },
 });
 
 export default ActionMenu;

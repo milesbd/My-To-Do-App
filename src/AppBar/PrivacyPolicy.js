@@ -22,11 +22,15 @@ const PrivacyPolicy = () => {
     <View>
       <Subheading>Simple version:</Subheading>
       <Paragraph>
-        We do not aim to collect any information about you, your device, or
-        any information entered into the app. There are no mechanisms in place to
-        send your data to any external parties, nor search your device for anything else.
+        We do not aim to collect any information about you, your device, or any
+        information entered into the app. There are no mechanisms in place to
+        send your data to any external parties, nor search your device for
+        anything else.
       </Paragraph>
-      <Paragraph>This app stores your To Do items solely on your device (no external backups) in an unencrypted form.</Paragraph>
+      <Paragraph>
+        This app stores your To Do items solely on your device (no external
+        backups) in an unencrypted form.
+      </Paragraph>
       <Divider style={{ marginVertical: 10 }} />
       <Subheading>Legal Version</Subheading>
       <Paragraph>
@@ -111,81 +115,8 @@ const PrivacyPolicy = () => {
       </List.Section>
       <Subheading>Information automatically collected</Subheading>
       <Paragraph>
-        There is some information like your Internet Protocol (IP) address
-        and/or browser and device characteristics — is collected automatically
-        when you visit our platform. This information may be used to connect
-        your computer to the Internet. Other information collected automatically
-        could be a login, e-mail address, password, computer and connection
-        information such as browser plug-in types and versions and time zone
-        setting, operating systems and platforms, purchase history, (we
-        sometimes aggregate with similar information from other Users), the full
-        Uniform Resource Locator (URL) clickstream to, through and from our
-        Website that may include date and time; cookie number; parts of the site
-        you viewed or searched for; and the phone number you used to call our
-        Customer Services. We may also use browser data such as cookies, Flash
-        cookies (also known as Flash Local Shared Objects) or similar data on
-        certain parts of our Website for fraud prevention and other purposes.
-        During your visits, we may use software tools such as JavaScript to
-        measure and collect session information including page response times,
-        download errors, length of visits to certain pages, page interaction
-        information (such as scrolling, clicks, and mouse-overs), and methods
-        used to browse away from the page. We may also collect technical
-        information to help us identify your device for fraud prevention and
-        diagnostic purposes.
+        We do not collect any information when using the application.
       </Paragraph>
-      <Paragraph>
-        We automatically collect certain information when you visit, use or
-        navigate the platform. This information does not reveal your specific
-        identity (like your name or contact information) but may include device
-        and usage information, such as your IP address, browser and device
-        characteristics, operating system, language preferences, referring URLs,
-        device name, country, location, information about who and when you use
-        our and other technical information. This information is primarily
-        needed to maintain the security and operation of our platform, and for
-        our internal analytics and reporting purposes.
-      </Paragraph>
-      <Subheading>Personnel</Subheading>
-      <Paragraph>
-        If you are a My To Do App worker or applicant, we collect information
-        you voluntarily provide to us. We use the information collected for
-        Human Resources purposes in order to administer benefits to workers and
-        screen applicants.
-      </Paragraph>
-      <Paragraph>
-        You may contact us in order to (1) update or correct your information,
-        (2) change your preferences with respect to communications and other
-        information you receive from us, or (3) receive a record of the
-        information we have relating to you. Such updates, corrections, changes
-        and deletions will have no effect on other information that we maintain,
-        or information that we have provided to third parties in accordance with
-        this Privacy Policy prior to such update, correction, change or
-        deletion.
-      </Paragraph>
-      <Subheading>Sale of Business</Subheading>
-      <Paragraph>
-        We reserve the right to transfer information to a third party in the
-        event of a sale, merger or other transfer of all or substantially all of
-        the assets of My To Do App or any of its Corporate Affiliates (as
-        defined herein), or that portion of My To Do App or any of its Corporate
-        Affiliates to which the Service relates, or in the event that we
-        discontinue our business or file a petition or have filed against us a
-        petition in bankruptcy, reorganization or similar proceeding, provided
-        that the third party agrees to adhere to the terms of this Privacy
-        Policy.
-      </Paragraph>
-
-      <Subheading>Affiliates</Subheading>
-      <Paragraph>
-        We may disclose information (including personal information) about you
-        to our Corporate Affiliates. For purposes of this Privacy Policy,
-        "Corporate Affiliate" means any person or entity which directly or
-        indirectly controls, is controlled by or is under common control with My
-        To Do App, whether by ownership or otherwise. Any information relating
-        to you that we provide to our Corporate Affiliates will be treated by
-        those Corporate Affiliates in accordance with the terms of this Privacy
-        Policy.
-      </Paragraph>
-
       <Subheading>Governing Law</Subheading>
       <Paragraph>
         This Privacy Policy is governed by the laws of Canada without regard to
@@ -212,7 +143,7 @@ const PrivacyPolicy = () => {
 
       <Subheading>Your Consent</Subheading>
       <Paragraph>
-        We've updated our Privacy Policy to provide you with complete
+        We've updated our Privacy Policy to provide you with complete
         transparency into what is being set when you visit our site and how it's
         being used. By using our app, registering an account, or making a
         purchase, you hereby consent to our Privacy Policy and agree to its
@@ -232,44 +163,11 @@ const PrivacyPolicy = () => {
         subject to that website’s own rules and policies. Such third parties may
         use their own cookies or other methods to collect information about you.
       </Paragraph>
-      <Subheading>Cookies</Subheading>
-      <Paragraph>
-        My To Do App uses "Cookies" to identify the areas of our website that
-        you have visited. A Cookie is a small piece of data stored on your
-        computer or mobile device by your web browser. We use Cookies to enhance
-        the performance and functionality of our app but are non-essential to
-        their use. However, without these cookies, certain functionality like
-        videos may become unavailable or you would be required to enter your
-        login details every time you visit the app as we would not be able to
-        remember that you had logged in previously. Most web browsers can be set
-        to disable the use of Cookies. However, if you disable Cookies, you may
-        not be able to access functionality on our website correctly or at all.
-        We never place Personally Identifiable Information in Cookies.
-      </Paragraph>
 
-      <Subheading>
-        Blocking and disabling cookies and similar technologies
-      </Subheading>
-      <Paragraph>
-        Wherever you're located you may also set your browser to block cookies
-        and similar technologies, but this action may block our essential
-        cookies and prevent our website from functioning properly, and you may
-        not be able to fully utilize all of its features and services. You
-        should also be aware that you may also lose some saved information (e.g.
-        saved login details, site preferences) if you block cookies on your
-        browser. Different browsers make different controls available to you.
-        Disabling a cookie or category of cookie does not delete the cookie from
-        your browser, you will need to do this yourself from within your
-        browser, you should visit your browser's help menu for more information.
-      </Paragraph>
       <Subheading>Kids' Privacy</Subheading>
       <Paragraph>
-        We collect information from kids under the age of 13 just to better our
-        services. If You are a parent or guardian and You are aware that Your
-        child has provided Us with Personal Data without your permission, please
-        contact Us. If We become aware that We have collected Personal Data from
-        anyone under the age of 13 without verification of parental consent, We
-        take steps to remove that information from Our servers.
+        We do not collect information from kids under the age of 13 just to
+        better our services.
       </Paragraph>
       <Subheading>Changes To Our Privacy Policy</Subheading>
       <Paragraph>
@@ -376,20 +274,9 @@ const PrivacyPolicy = () => {
         Individual Data Subject's Rights - Data Access, Portability and Deletion
       </Subheading>
       <Paragraph>
-        We are committed to helping our customers meet the data subject rights
-        requirements of GDPR. My To Do App processes or stores all personal data
-        in fully vetted, DPA compliant vendors. We do store all conversation and
-        personal data for up to 6 years unless your account is deleted. In which
-        case, we dispose of all data in accordance with our Terms of Service and
-        Privacy Policy, but we will not hold it longer than 60 days.
-      </Paragraph>
-      <Paragraph>
-        We are aware that if you are working with EU customers, you need to be
-        able to provide them with the ability to access, update, retrieve and
-        remove personal data. We got you! We've been set up as self service from
-        the start and have always given you access to your data and your
-        customers data. Our customer support team is here for you to answer any
-        questions you might have about working with the API.
+        We are committed to helping our customers meet the data subject rights
+        requirements of GDPR. While My To Do App does not process or store any
+        personal data, we do you may contact us with any GDPR data requests.
       </Paragraph>
       <Subheading>California Residents</Subheading>
       <Paragraph>
@@ -486,15 +373,14 @@ const PrivacyPolicy = () => {
         labelStyle={{ flexDirection: "row", justifyContent: "flex-start" }}
         onPress={() =>
           goToURL(
-            "mailto:help@milesbd.ca?subject=Privacy Concern with 'My To Do' app"
+            "mailto:privacy@milesbd.ca?subject=Privacy Concern with 'My To Do' app"
           )
         }
       >
-        help@milesbd.ca
+        privacy@milesbd.ca
       </Button>
       <Divider style={{ marginVertical: 10 }} />
-      <Paragraph>Last Updated: 2021-07-01</Paragraph>
-      
+      <Paragraph>Last Updated: 2024-02-05</Paragraph>
     </View>
   );
 };
